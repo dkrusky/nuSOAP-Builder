@@ -23,7 +23,8 @@ You are free to distribute and/or modify this code so long as you give clear att
 
 ## Screenshots
 
-Add Function/Method Screen
+#### Add Function/Method Screen
+
 ![image](https://cloud.githubusercontent.com/assets/11585632/21906363/0daf152a-d8d9-11e6-930f-eb8a975077d9.png)
 
 * Name - the name of the method
@@ -36,12 +37,16 @@ Add Function/Method Screen
 * Create method for this function in WSDL - if checked, will create the necessary WSDL for the method. if not checked, it will ceate it as a normal php function.
 * Add Database Code - if checked allows you to use the query builder to generate the starter code for select/etc. The code generated uses mysqli prepared statements.
 
-Method Added
+#### Method Added
+
 ![image](https://cloud.githubusercontent.com/assets/11585632/21905997/8071df36-d8d7-11e6-9b89-7538a65add82.png)
+
 *The SQL starter code inserted was done with the helper while adding the method*
 
-Add Type
+#### Add Type
+
 ![image](https://cloud.githubusercontent.com/assets/11585632/21906741/814036a8-d8da-11e6-82d0-538c8e178a66.png)
+
 *If you intend to use the "Create an array of this type" feature, it is recommended you use a Name which is the singular form of what you want a collection of. The generator will automatically create the plural form as a collection of this object*
 
 * Name - the name of the type.
@@ -49,8 +54,10 @@ Add Type
 * Field Type - the data type of the field you wish to add to this type.
 * Create an array of this type - when checked it will create two WSDL types, one by the name you set (eg Client), and a second one which is a collection of this type adding an `s` to the end (eg Clients)
 
-Type Added
+#### Type Added
+
 ![image](https://cloud.githubusercontent.com/assets/11585632/21906288/af4d4cb8-d8d8-11e6-9890-385236a51e42.png)
+
 *This is a single entry for a type, and a collection of that type. It creates `Client` and `Clients` (an array of `Client`)*
 
 ## Caveats
